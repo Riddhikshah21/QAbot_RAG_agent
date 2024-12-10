@@ -1,11 +1,11 @@
 # QAbot_RAG_agent
 
- RAG application has 2 components:
+RAG application has 2 components:
     1. Indexing 
         a. Load - load data 
         b. Split - split large document into smaller chunks 
         c. Store - store embedding of the data into a vector database
-    
+
     2. Retrieval and generation  
         a. Retrieve - retrieve relevant data from vector database based on the similarity search on the indexing and pass the retrieved data as context to the model.
         b. Generate - prompt containing the context and query to the LLM for generating response. 
